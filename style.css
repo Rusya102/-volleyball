@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*::before,
+::after {
+  -moz-box-align: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+::after {
+  outline: none;
+}
+
+a:focus,
+a::after {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  list-style: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+template {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1 h2 h3 h4 h5 h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+body {
+  background: rgb(79, 79, 79);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, rgb(79, 79, 79)), color-stop(1%, rgb(79, 79, 79)), color-stop(6%, rgb(79, 79, 79)), color-stop(12%, rgb(79, 79, 79)), color-stop(35%, rgb(142, 142, 142)), color-stop(48%, rgb(142, 142, 142)), color-stop(62%, rgb(142, 142, 142)), color-stop(89%, rgb(79, 79, 79)), color-stop(95%, rgb(79, 79, 79)), to(rgb(79, 79, 79)));
+  background: linear-gradient(to bottom, rgb(79, 79, 79) 1%, rgb(79, 79, 79) 1%, rgb(79, 79, 79) 6%, rgb(79, 79, 79) 12%, rgb(142, 142, 142) 35%, rgb(142, 142, 142) 48%, rgb(142, 142, 142) 62%, rgb(79, 79, 79) 89%, rgb(79, 79, 79) 95%, rgb(79, 79, 79) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4f4f4f");
+}
+
+.img {
+  text-align: center;
+  margin: 100px;
+}
+
+img {
+  height: 800px;
+  width: 900px;
+  border: 3px solid white;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 35px;
+  margin: 30px;
+}
+
+.text__1 {
+  text-align: center;
+  letter-spacing: 3px;
+  -webkit-text-decoration: underline 2px;
+          text-decoration: underline 2px;
+}
+
+li {
+  margin: 175px;
+}
+
+h2 {
+  margin: 15px;
+  color: black;
+  letter-spacing: 2px;
+}
+h2:hover {
+  color: white;
+}
+
+.text__2 {
+  border: 1px solid black;
+  max-width: 100%;
+  width: 700px;
+  height: 125px;
+  max-width: 100%;
+  max-height: 100%;
+  text-align: left;
+  line-height: 20px;
+}
+
+.list__1 {
+  color: rgb(39, 39, 39);
+}
+
+.r3 {
+  text-align: center;
+  margin: 50px 260px;
+}
